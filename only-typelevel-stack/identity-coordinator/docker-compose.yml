@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  identity-coordinator:
+    container_name: identity-coordinator
+    image: identity-coordinator:0.1.0-SNAPSHOT
+    command: /opt/docker/bin/boot 'bash'
+    # /opt/docker/bin/boot 'bash'
+    environment:
+      JAVA_OPTS: "-Xms4096M -Xmx8192M -XX:MaxGCPauseMillis=100"
