@@ -7,7 +7,7 @@ of the user and its authentication.*
 
 ## What can the Identity Service do?
 
-- Authenticate and create user representation with phone number.
+- Authenticate and create user representation with phone number and external generated JWT.
 - Store user information if the user specifies it.
 - Update user information if the user specifies it.
 
